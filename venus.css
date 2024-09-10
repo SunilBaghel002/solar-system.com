@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url("space.jpg");
+  background-size: contain;
+}
+
+.arrow-content-panel {
+  position: absolute;
+  top: 10vh;
+  left: -480px;
+  width: 500px;
+  height: 470px;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  transition: left 0.3s ease-in-out;
+  opacity: 0.85;
+  /* border: 1px solid white; */
+}
+
+.arrow-trigger {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 40px;
+  background-color:#87380b;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+
+.content-panel {
+  padding-left: 20px;
+  width: 400px;
+  height: 490px;
+  background-color: black;
+  border-radius: 20px;
+  overflow: scroll;
+  opacity: 0.9;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+img {
+  width: 30vw;
+  height: 30vw;
+  /* margin-top: 420px; */
+  margin-left: 50vw;
+  border-radius: 50%;
+ box-shadow: 0px 0px 10px #cfcac6; 
+}
+
+.box {
+  color: white;
+  position: relative;
+  width: 300px;
+  top: 20vw;
+  left: 20vh;
+  font-family: Audiowide;
+  background-color: aquamarie;
+}
+
+.box1 {
+  color: white;
+  position: relative;
+  width: 270px;
+  top: 20vw;
+  left: 25vh;
+  font-family: Audiowide;
+}
+
+.box h1 {
+  font-size: 70px;
+
+}
+
+.box1 p {
+  font-size: 30px;
+
+}
+
+.animated-text {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #000;
+  animation: typing 3s steps(30, end) 1;
+}
+
+.animated-text1 {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #000;
+  animation: typing 6.5s steps(30, end) 1;
+}
+
+.heading {
+  margin-top: 10px;
+}
+
+.heading h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.content {
+  width: 95%;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.click {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.click p {
+  opacity: 1;
+}
+
+.click2 {
+  background-color: #8b4b00;
+}
+
+.kit {
+  width: 95%;
+  margin: auto;
+  color: white;
+  font-size: 21px;
+  background-color: black;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  /* width of the entire scrollbar */
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color:#6e4915;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+.arrow-trigger:hover {
+  cursor: pointer;
+}
+
+.left {
+  font-size: 18px;
+}
+
+.niche {
+  align-items: center;
+}
+
+.upar {
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.kit {
+  margin-top: 10px;
+}
+
+.click p:first-child {
+  color: #9d9999;
+}
+.linking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+}
+.link {
+  max-width: 120px;
+  padding: 5px;
+  /* background-color: ; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.link p {
+  color: white;
+  font-family: Audiowide;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  /* transition: all 0.5s ease; */
+}
+
+.link a {
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.link a:hover {
+  color: black;
+  /* text-decoration: underline; */
+  background-color: rgb(244, 137, 50);
+  transform: scale(1.3);
+}
+
+.link p:hover {
+  color: black;
+  text-decoration: underline;
+}
+img:hover{
+  transform: scale(1.2);
+}
+img{
+  transition: all ease 0.5s;
+}

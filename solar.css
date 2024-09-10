@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.space {
+  width: 100vw;
+  height: 115vh;
+  background-color: black;
+  background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: contain;
+}
+
+.circle3 {
+  width: 14vw;
+  height: 14vw;
+  background-color: ble;
+  border: px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 35vh;
+  left: 40vw;
+  transform: ske-z(30deg);
+  margin: auto;
+  z-index: 7;
+  -webkit-animation: spin-right 10s linear infinite;
+  -moz-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+
+.sun {
+  width: 4.5vw;
+  height: 4.5vw;
+  background-color: ;
+  border-radius: 50%;
+  position: relative;
+  top: 45vh;
+  left: 45vw;
+  z-index: 10;
+  /* box-shadow: 0px 0px 13px orange; */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  border-radius: 50%;
+}
+
+.earth {
+  width: 22px;
+  height: 22px;
+  background-color: ;
+  border-radius: 50%;
+  position: relative;
+  left: 13px;
+  top: 30px;
+  box-shadow: 0px 0px 3px deepskyblue;
+}
+
+.orbit {
+  width: 3vw;
+  height: 3vw;
+  background-color: ;
+  border: px solid white;
+  border-radius: 50%;
+  position: relative;
+  left: px;
+  top: px;
+  -webkit-animation: spin-right 4s linear infinite;
+  -moz-animation: spin-right 4s linear infinite;
+  animation: spin-right 4s linear infinite;
+}
+
+.moon {
+  width: 10px;
+  height: 10px;
+  background-color: gey;
+  border-radius: 50%;
+  position: relative;
+  left: px;
+}
+
+.moon img {
+  border-radius: 50%;
+}
+
+.earth img {
+  border-radius: 50%;
+  /* https://www.solarsystemscope.com/spacepedia/images/handbook/renders/earth.png */
+}
+
+.circle1 {
+  width: 7vw;
+  height: 7vw;
+  background-color: ;
+  border-radius: 50%;
+  position: relative;
+  top: 33vh;
+  left: 43.5vw;
+  z-index: 9;
+  border: px solid white;
+  -webkit-animation: spin-right 2.5s linear infinite;
+  -moz-animation: spin-right 2.5s linear infinite;
+  animation: spin-right 2.5s linear infinite;
+}
+
+.mercury {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: azure;
+  position: relative;
+  top: 20px;
+  left: px;
+}
+
+.circle2 {
+  width: 10vw;
+  height: 10vw;
+  background-color: ;
+  border-radius: 50%;
+  position: relative;
+  top: 15vh;
+  left: 42vw;
+  border: px solid white;
+  z-index: 8;
+  -webkit-animation: spin-right 7s linear infinite;
+  -moz-animation: spin-right 7s linear infinite;
+  animation: spin-right 7s linear infinite;
+}
+
+.venus {
+  width: 20px;
+  height: 20px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: px;
+}
+
+.circle4 {
+  width: 18vw;
+  height: 18vw;
+  background-color: ;
+  border-radius: 50%;
+  position: relative;
+  top: -15vh;
+  left: 38vw;
+  border: px solid white;
+  z-index: 6;
+  -webkit-animation: spin-right 18s linear infinite;
+  -moz-animation: spin-right 18s linear infinite;
+  animation: spin-right 18s linear infinite;
+}
+
+.mars {
+  width: 20px;
+  height: 20px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  position: relative;
+  top: 72px;
+  left: px;
+  box-shadow: 0px 0px 1px lightgrey;
+}
+
+.circle5 {
+  width: 24.5vw;
+  height: 24.5vw;
+  background-color: burlywod;
+  border-radius: 50%;
+  position: relative;
+  z-index: 5;
+  bottom: 61vh;
+  left: 35vw;
+  border: px solid white;
+  -webkit-animation: spin-right 30s linear infinite;
+  -moz-animation: spin-right 30s linear infinite;
+  animation: spin-right 30s linear infinite;
+}
+
+.jupiter {
+  width: 40px;
+  height: 40px;
+  background-color: beige;
+  border-radius: 50%;
+  position: relative;
+  top: 80px;
+}
+
+.jupiter-orbit {
+  width: 5vw;
+  height: 5vw;
+  background-color: cadetlue;
+  border-radius: 50%;
+  position: relative;
+  z-index: -1;
+  top: 20px;
+  left: -20px;
+  -webkit-animation: spin-right 15s linear infinite;
+  -moz-animation: spin-right 15s linear infinite;
+  animation: spin-right 15s linear infinite;
+}
+
+.ganymede {
+  width: 12px;
+  height: 12px;
+  background-color: aure;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.io {
+  width: 8px;
+  height: 8px;
+  background-color: corsilk;
+  border-radius: 50%;
+  position: relative;
+  top: -10px;
+  left: 40px;
+}
+
+.europa {
+  width: 10px;
+  height: 10px;
+  background-color: chocolae;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.circle6 {
+  width: 30vw;
+  height: 30vw;
+  background-color: cadetble;
+  border-radius: 50%;
+  position: relative;
+  z-index: 4;
+  bottom: 118vh;
+  left: 32vw;
+  border: px solid white;
+  -webkit-animation: spin-right 45s linear infinite;
+  -moz-animation: spin-right 45s linear infinite;
+  animation: spin-right 45s linear infinite;
+}
+
+.saturn {
+  width: 35px;
+  height: 35px;
+  background-color: antiquehite;
+  border-radius: 50%;
+  position: relative;
+  top: 120px;
+}
+
+.saturn-orbit {
+  width: 4vw;
+  height: 4vw;
+  background-color: cadetbue;
+  border-radius: 50%;
+  position: relative;
+  z-index: -2;
+  top: 75px;
+  left: -15px;
+  -webkit-animation: spin-right 10s linear infinite;
+  -moz-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+
+.titan {
+  width: 10px;
+  height: 10px;
+  background-color: aqa;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  left: 15px;
+  border: ;
+  border-bottom: 0px solid white;
+  border-bottom-color: ;
+}
+
+.enceladus {
+  width: 8px;
+  height: 8px;
+  background-color: lightgren;
+  border-radius: 50%;
+  position: relative;
+  top: 1px;
+  left: 10px;
+  border-bottom-color: white;
+}
+
+.saturn img {
+  width: 100%;
+  height: 100%;
+}
+
+.circle7 {
+  width: 36vw;
+  height: 36vw;
+  background-color: ble;
+  border-radius: 50%;
+  position: relative;
+  z-index: 3;
+  bottom: 188vh;
+  left: 29vw;
+  border: px solid white;
+  -webkit-animation: spin-right 65s linear infinite;
+  -moz-animation: spin-right 65s linear infinite;
+  animation: spin-right 65s linear infinite;
+}
+
+.uranus {
+  width: 28px;
+  height: 28px;
+  background-color: azure;
+  border-radius: 50%;
+  position: relative;
+  top: 185px;
+}
+
+.uranus-orbit {
+  width: 4vw;
+  height: 4vw;
+  background-color: cadetlue;
+  border-radius: 50%;
+  position: relative;
+  z-index: -1;
+  top: 140px;
+  left: -15px;
+  -webkit-animation: spin-right 20s linear infinite;
+  -moz-animation: spin-right 20s linear infinite;
+  animation: spin-right 20s linear infinite;
+}
+
+.titania {
+  width: 9px;
+  height: 9px;
+  background-color: alicelue;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 3px;
+}
+
+.neptune-orbit {
+  width: 4vw;
+  height: 4vw;
+  background-color: cadetlue;
+  border-radius: 50%;
+  position: relative;
+  z-index: -1;
+  top: 155px;
+  left: -16px;
+  -webkit-animation: spin-right 18s linear infinite;
+  -moz-animation: spin-right 18s linear infinite;
+  animation: spin-right 18s linear infinite;
+}
+
+.triton {
+  width: 11px;
+  height: 11px;
+  background-color: rd;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: px;
+}
+
+.circle8 {
+  width: 41vw;
+  height: 41vw;
+  background-color: bron;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  bottom: 270vh;
+  left: 26.2vw;
+  border: px solid white;
+  -webkit-animation: spin-right 80s linear infinite;
+  -moz-animation: spin-right 80s linear infinite;
+  animation: spin-right 80s linear infinite;
+}
+
+.neptune {
+  width: 30px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+}
+
+.circle9 {
+  width: 43vw;
+  height: 43vw;
+  background-color: darkgren;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  bottom: 358vh;
+  left: 24.6vw;
+  border: px solid white;
+  -webkit-animation: spin-right 95s linear infinite;
+  -moz-animation: spin-right 95s linear infinite;
+  animation: spin-right 95s linear infinite;
+}
+
+.pluto {
+  width: 15px;
+  height: 15px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: relative;
+  top: 260px;
+  left: -30px;
+}
+
+.makemake {
+  width: 15px;
+  height: 15px;
+  background-color: bisque;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+  left: 690px;
+}
+
+.time {
+  width: 325px;
+  height: ;
+  position: relative;
+  z-index: 12;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #f0f0f3;
+  bottom: 4500px;
+  left: 100vw;
+  col
+}
+
+#timeSlider {
+  width: 200px;
+  background-color: white;
+}
+button{
+  color: white;
+  background-color: cadetblue;
+  position: relative;
+  bottom: 350vh;
+  left: 90vw;
+  padding: 15px;
+  z-index: 12;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
